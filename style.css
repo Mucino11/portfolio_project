@@ -1,0 +1,18 @@
+/* styles.css */
+.progress-bar {
+  background-color: #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  height: 20px;
+  width: 100%;
+}
+
+.progress {
+  background-color: #007bff;
+  height: 100%;
+  transition: width 0.3s;
+}
+/* delete later*/
+section {
+  margin: 20px;
+}
