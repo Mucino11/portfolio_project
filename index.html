@@ -9,7 +9,7 @@
   <body>
     <header>
       <nav class="navigation-bar">
-        <ul>
+        <ul class="nav-list">
           <li><a href="index.html">Home</a></li>
           <li><a href="project.html">Project</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -17,9 +17,9 @@
         </ul>
       </nav>
 
-      <div class="hero-section">
-        <h2>Hi, I am Musa</h2>
-        <p>
+      <div class="hero-section-container">
+        <h2 class="hero-h2">Hi, I am Musa</h2>
+        <p class="hero-p">
           I’m a third-year Information Systems student at HIØF with a passion
           for web development and cybersecurity. Exploring the intersection of
           technology and security, I strive to build secure and innovative
@@ -27,22 +27,41 @@
         </p>
       </div>
     </header>
+
     <main>
-      <section class="my-project">
-        <h1>My Projects</h1>
-        <article class="project-card">
-          <p>Name</p>
-          <p>Description</p>
-          <p>Status</p>
-          <img src="#" alt="project-img" />
-        </article>
-        <button>See More</button>
+        <section>
+          <h1 class="project-section-h1">My Projects</h1>
+          <section class="grid-project-section">
+              <article class="project-card">
+                  <h2 class="project-h2">Name: Big Lemon</h2>
+                  <p>Description: A restaurant booking system created in React</p>
+                  <p>Status: Incomplete</p>
+                  <img src="images/big_lemon.png" alt="project-img" class="portfolio-image" />
+              </article>
+              <article class="project-card">
+                <h2 class="project-h2">Name: Big Lemon</h2>
+                <p>Description: A restaurant booking system created in React</p>
+                <p>Status: Incomplete</p>
+                <img src="images/big_lemon.png" alt="project-img" class="portfolio-image" />
+            </article>
+            <article class="project-card">
+              <h2 class="project-h2">Name: Big Lemon</h2>
+              <p>Description: A restaurant booking system created in React</p>
+              <p>Status: Incomplete</p>
+              <img src="images/big_lemon.png" alt="project-img" class="portfolio-image" />
+          </article>
+              
+          </section>
+          <a href="project.html"><button class="button-dark" >See more projects</button></a>
       </section>
-      <section class="about-me">
-        <img src="#" alt="Musa Jalloh" class="about-me-image" />
+      
+    <!-- Above done styling--------------------------------------------->
+      </section>
+      <section class="about-me-section">
+        <img src="images/musa.jpg" alt="Musa Jalloh" class="about-me-image" />
         <div class="about-me-content">
-          <h2>About Me</h2>
-          <p>
+          <h2 class="about-me-h2">About Me</h2>
+          <p class="about-me-p">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac
             libero dolor. Fusce consectetur turpis sapien, at convallis lorem
             ultrices vitae. Suspendisse sollicitudin congue magna non egestas.
@@ -55,7 +74,8 @@
             habitant morbi tristique senectus et netus et malesuada fames ac
             turpis egestas.
           </p>
-          <button>Learn more</button>
+          <a href="resume.html"> <button class="button-light">See resume</button></a>
+         
         </div>
       </section>
       <section class="my-skills">
@@ -106,8 +126,8 @@
       </section>
     </main>
     <footer>
-      <nav class="footer-nav">
-        <ul>
+      <nav class="navigation-bar">
+        <ul class="nav-list">
           <li><a href="index.html">Home</a></li>
           <li><a href="project.html">Project</a></li>
           <li><a href="contact.html">Contact</a></li>
