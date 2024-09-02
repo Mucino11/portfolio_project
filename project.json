@@ -1,0 +1,48 @@
+{
+  "projects": [
+    {
+      "name": "Big Lemon Restaurant",
+      "description": "A restaurant booking system created in React",
+      "status": "Incomplete",
+      "image": "images/big_lemon.png",
+      "githubLink": "#"
+    },
+    {
+      "name": "Another Project",
+      "description": "Another project description.",
+      "status": "In Progress",
+      "image": "images/big_lemon.png",
+      "githubLink": "#"
+    },
+    {
+      "name": "Yet Another Project",
+      "description": "Yet another project description.",
+      "status": "Complete",
+      "image": "images/big_lemon.png",
+      "githubLink": "#"
+    }
+  ],
+  "additionalProjects": [
+    {
+      "name": "Big Lemon Restaurant",
+      "description": "Lorem ipsum dolor sit amet...",
+      "status": "Incomplete",
+      "image": "images/big_lemon.png",
+      "githubLink": "#"
+    },
+    {
+      "name": "Another Project",
+      "description": "Another project description.",
+      "status": "In Progress",
+      "image": "images/big_lemon.png",
+      "githubLink": "#"
+    },
+    {
+      "name": "Another Project",
+      "description": "Another project description.",
+      "status": "In Progress",
+      "image": "images/big_lemon.png",
+      "githubLink": "#"
+    }
+  ]
+}
